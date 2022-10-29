@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/30d0976aea.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./assets/fonts/fontawesome/css/all.css">
 </head>
 <body>
     <div class="app">
@@ -19,18 +19,42 @@
             <div class="grid">
                 <nav class="navbar">
                     <ul class="navbar-list">
-                        <li class="navbar-item navbar-item--separate">Vào cửa hàng trên ứng dụng F8-shop</li>
-                        <li class="navbar-item">Kết nối</li>
+                        <li class="navbar-item navbar-item--has-qr navbar-item--separate">
+                            Vào cửa hàng trên ứng dụng F8-shop
+                            <!-- Header QR code -->
+                            <div class="header__qr">
+                                <img src="./assets/img/QR_header.png" alt="QR code" class="header__qr-img">
+                                <div class="header__qr-apps">
+                                    <a href="" class="header__qr-download-link">
+                                        <img src="./assets/img/appstore.png" alt="App Store" class="header__qr-download-img">
+                                    </a>
+                                    <a href="" class="header__qr-download-link">
+                                        <img src="./assets/img/CH play.png" alt="Google Play" class="header__qr-download-img">
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="navbar-item">
+                            <span class="navbar-title--no-pointer">Kết nối</span>
+                            <a href="" class="navbar-icon-link">
+                                <i class="navbar-icon fa-brands fa-facebook"></i>   
+                            </a>
+                            <a href="" class="navbar-icon-link">
+                                <i class="navbar-icon fa-brands fa-instagram"></i>
+                            </a>
+                        </li>
                     </ul>
     
                     <ul class="navbar-list">
                         <li class="navbar-item">
                             <a href="" class="navbar-item-link">
+                                <i class="navbar-icon fa-regular fa-bell"></i>
                                 Thông báo
                             </a> 
                         </li>
                         <li class="navbar-item">
                             <a href="" class="navbar-item-link">
+                                <i class="navbar-icon fa-regular fa-circle-question"></i>
                                 Trợ giúp
                             </a> 
                         </li>
